@@ -6,7 +6,6 @@ import Social from "./Social";
 
 const Navbar = () => {
 
-
     const [showLinks, setShowLinks] = useState(false);
     const showMenu = () => {
         if (window.innerWidth > 800) {
